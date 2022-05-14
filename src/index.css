@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ef5350;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+input {
+  padding: 12px 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  min-width: 400px;
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 12px;
+  font-size: 18px;
+}
+
+p.secondary {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+p strong {
+  font-size: 22px;
+}
+
+div.card-item {
+  height: 200px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  flex-basis: calc(20% - 22px);
+}
+
+.card-item > h2 {
+  color: black;
+  font-size: 1em;
+}
+
+div.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 20px;
+}
